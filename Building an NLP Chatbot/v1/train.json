@@ -1,0 +1,105 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Good morning", "Good afternoon", "Good evening", "Hey", "Hi there", "Hello there"],
+        "responses": ["Hello! How can I assist you today?", "Hi there! What can I do for you?", "Good day! How can I help you today?", "Hey! How can I assist you?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Goodbye", "See you later", "Take care", "Bye bye", "Talk to you later"],
+        "responses": ["Goodbye! Have a great day!", "See you later!", "Take care!", "Bye! Come back soon!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "I appreciate it", "Thanks a lot", "Thank you very much"],
+        "responses": ["You're welcome!", "Happy to help!", "Anytime!", "My pleasure!"]
+      },
+      {
+        "tag": "ordering",
+        "patterns": ["I want to place an order", "Can I buy this?", "I would like to order", "Order this for me", "How do I place an order?", "I want to buy something"],
+        "responses": ["Sure, what would you like to order?", "Please provide the product details you want to order.", "What item would you like to purchase today?", "I can help with that. What would you like to order?"]
+      },
+      {
+        "tag": "products",
+        "patterns": ["What products do you have?", "Show me your clothing collection", "What items are available?", "Do you have any new arrivals?", "What are your latest products?", "What can I buy here?"],
+        "responses": ["We have a wide range of products including shirts, pants, dresses, and accessories. What are you looking for specifically?", "You can check out our latest arrivals and collections on our website.", "We have various categories such as men's wear, women's wear, and kids' wear. What do you need?", "Our latest products include a variety of trendy outfits. Would you like to see our new arrivals?"]
+      },
+      {
+        "tag": "product_details",
+        "patterns": ["Tell me about this product", "What are the features of this item?", "Give me details of this clothing", "Can you provide more information about this?", "What is this made of?", "Is this product available in different sizes?"],
+        "responses": ["This product is made of high-quality material and is available in different sizes and colors. Would you like to know more?", "This item features a stylish design and comes with a warranty. Can I assist you with anything else?", "Here are the details: [Product Details]. Would you like to add it to your cart?", "This product is popular for its durability and comfort. It's available in multiple sizes. Need more details?"]
+      },
+      {
+        "tag": "store_information",
+        "patterns": ["Where is your store located?", "What are your store hours?", "How can I visit your store?", "Tell me about your store", "What are your business hours?", "Can you give me your address?"],
+        "responses": ["Our store is located at [Store Address]. We are open from 9 AM to 9 PM, Monday to Saturday.", "You can visit us at [Store Address]. We are open from 9 AM to 9 PM every day except Sunday.", "Our store hours are 9 AM to 9 PM from Monday to Saturday. Visit us at [Store Address].", "We are located at [Store Address]. Our business hours are 9 AM to 9 PM, Monday to Saturday."]
+      },
+      {
+        "tag": "returns_policy",
+        "patterns": ["What is your return policy?", "How can I return a product?", "Can I return this item?", "What are your return conditions?", "Do you accept returns?", "How do I make a return?"],
+        "responses": ["Our return policy allows you to return items within 30 days of purchase with a receipt. The product should be in its original condition.", "You can return the product within 30 days. Please ensure it is in its original packaging and condition.", "For returns, please visit our store with the receipt within 30 days of purchase.", "We accept returns within 30 days of purchase as long as the product is in its original condition and packaging."]
+      },
+      {
+        "tag": "shipping_information",
+        "patterns": ["What are the shipping options?", "How long does shipping take?", "Do you offer free shipping?", "What are your shipping policies?", "How much is shipping?", "When will my order arrive?"],
+        "responses": ["We offer standard and express shipping options. Standard shipping takes 3-5 business days, while express shipping takes 1-2 business days.", "Shipping options include standard (3-5 days) and express (1-2 days). Free shipping is available for orders over $50.", "You can choose between standard (3-5 business days) and express (1-2 business days) shipping. Orders over $50 qualify for free shipping.", "Our shipping policies include standard (3-5 days) and express (1-2 days) shipping options. Free shipping is available for orders above $50."]
+      },
+      {
+        "tag": "payment_methods",
+        "patterns": ["What payment methods do you accept?", "Can I pay with credit card?", "Do you accept PayPal?", "How can I pay for my order?", "What are the payment options?", "Can I use Apple Pay?"],
+        "responses": ["We accept various payment methods including credit cards, debit cards, PayPal, and Apple Pay.", "You can pay using credit cards, debit cards, PayPal, and Apple Pay.", "We accept payments via credit cards, debit cards, PayPal, and Apple Pay.", "Our payment options include credit cards, debit cards, PayPal, and Apple Pay."]
+      },
+      {
+        "tag": "track_order",
+        "patterns": ["How can I track my order?", "Where is my order?", "Track my shipment", "Order status", "Can you track my order?", "How do I check my order status?"],
+        "responses": ["You can track your order using the tracking number provided in your confirmation email.", "To check your order status, please enter your order ID and email on our tracking page.", "Track your shipment with the tracking number sent to your email.", "You can find the order status by logging into your account and checking the orders section."]
+      },
+      {
+        "tag": "offers_discounts",
+        "patterns": ["Do you have any discounts?", "Are there any offers?", "Current promotions", "Any sales going on?", "Discount codes", "What are your current deals?"],
+        "responses": ["We have various ongoing discounts and offers. Please visit our offers page for more details.", "Yes, we have several promotions. You can check the latest deals on our website.", "Currently, we are offering discounts on selected items. Check out our sale section.", "We have special discounts and offers. Visit our promotions page for more information."]
+      },
+      {
+        "tag": "size_guide",
+        "patterns": ["Do you have a size guide?", "How do I know my size?", "What size should I order?", "Size chart", "Can you help me with sizing?", "How do I choose the right size?"],
+        "responses": ["Yes, we have a size guide available on our website. You can refer to it to find your perfect fit.", "Our size chart is available on the product page. It will help you determine the right size.", "You can check our size guide to ensure you choose the correct size.", "We have a detailed size guide on our website to help you select the right size."]
+      },
+      {
+        "tag": "product_availability",
+        "patterns": ["Is this product available?", "Do you have this item in stock?", "When will this be back in stock?", "Is this item currently available?", "Can I buy this now?", "Stock availability"],
+        "responses": ["Let me check the availability for you. Please hold on a moment.", "This product is currently in stock. Would you like to order it?", "This item is out of stock right now. Would you like to be notified when it's available?", "We have limited stock available. I recommend placing an order soon."]
+      },
+      {
+        "tag": "customer_support",
+        "patterns": ["I need help", "Can I speak to customer service?", "Customer support", "I have an issue", "Help me with my problem", "Can I get some assistance?"],
+        "responses": ["Sure, our customer support team is here to help. How can we assist you?", "Please provide details of your issue, and our customer service team will assist you shortly.", "You can contact our customer support team via phone or email. They will be happy to help.", "I'm here to help. Please tell me more about the problem you're facing."]
+      },
+      {
+        "tag": "store_events",
+        "patterns": ["Are there any events at the store?", "Store events", "What's happening at the store?", "Upcoming events", "Are you hosting any events?", "Any in-store activities?"],
+        "responses": ["We have several upcoming events. Please check our events page for more details.", "Yes, we are hosting events. Visit our events section to know more.", "There are some exciting events planned at our store. Check our website for more information.", "We regularly host events. You can find the details on our events page."]
+      },
+      {
+        "tag": "loyalty_program",
+        "patterns": ["Do you have a loyalty program?", "Loyalty rewards", "How do I join your loyalty program?", "What are the benefits of the loyalty program?", "Rewards program", "Customer loyalty"],
+        "responses": ["Yes, we have a loyalty program. Members enjoy exclusive benefits and discounts.", "You can join our loyalty program by signing up on our website. Enjoy rewards and special offers.", "Our loyalty program offers many benefits. Visit our website to learn more and join.", "Join our rewards program to enjoy exclusive discounts and offers. Sign up today!"]
+      },
+      {
+        "tag": "product_recommendation",
+        "patterns": ["Can you recommend a product?", "What should I buy?", "Recommend something for me", "Best products for summer", "What do you suggest?", "Product suggestions"],
+        "responses": ["Based on your interests, I recommend checking out our latest summer collection.", "Our bestsellers include [Product 1], [Product 2], and [Product 3]. Would you like more details?", "For this season, I suggest our new arrivals. They are trendy and popular.", "You might like our [Category] products. They are highly rated by our customers."]
+      },
+      {
+        "tag": "sustainability",
+        "patterns": ["Are your products sustainable?", "Eco-friendly products", "Do you have sustainable clothing?", "Environmentally friendly options", "Sustainability practices", "Green products"],
+        "responses": ["We are committed to sustainability and offer a range of eco-friendly products.", "Our sustainable clothing line includes items made from organic and recycled materials.", "Yes, we have environmentally friendly options. Check our sustainability section for more.", "We prioritize sustainability in our products. You can find eco-friendly items in our collection."]
+      },
+      {
+        "tag": "care_instructions",
+        "patterns": ["How do I care for this product?", "Washing instructions", "Product care guide", "How to wash this item?", "Can I machine wash this?", "Care instructions"],
+        "responses": ["Care instructions are available on the product label. You can also find them on our website.", "This item can be machine washed on a gentle cycle. Please refer to the care label for details.", "To ensure longevity, follow the care instructions provided with the product.", "We recommend following the care guide on the label. For specific instructions, visit our website."]
+      }
+    ]
+  }
+  
